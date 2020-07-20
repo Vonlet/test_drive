@@ -27,7 +27,6 @@ function init(){
   spotLight.position.set(0, 500, 0);
   spotLight.lookAt(0,0,0);
   spotLight.shadow.camera.far = 1000;
-  spotLight.target = target;
   spotLight.castShadow = true;
   scene.add(spotLight);
 
