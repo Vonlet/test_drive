@@ -5,7 +5,7 @@
        must importing {stats, dat.gui}
 */
 
-var file_path = "https://github.com/Vonlet/test_drive/blob/master/images/late/";
+var file_path = "https://github.com/Vonlet/test_drive/tree/master/images/late/";
 var info_array = [
   {name:"EB18JoVUYAAkkZf.jpg",url:"https://twitter.com/Late327/status/1161220793059037184"},
   {name:"EB-rI4GVAAMBXCP.jpg",url:"https://twitter.com/Late327/status/1161835403952807937"},
@@ -204,7 +204,7 @@ function init(){
   var planeGeometry = new THREE.PlaneGeometry(1000,1000);
   var plane_loader = new THREE.TextureLoader();
   plane_loader.load(
-    "https://github.com/Vonlet/test_drive/blob/master/images/floor-wood.jpg",
+    "https://github.com/Vonlet/test_drive/tree/master/images/floor-wood.jpg",
     function(texture){
       var planeMaterial = new THREE.MeshStandardMaterial({
         map: texture
